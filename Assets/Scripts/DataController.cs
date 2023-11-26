@@ -9,8 +9,8 @@ public class DataController : MonoBehaviour
     [SerializeField] Text viewText;
     [SerializeField] Button dataButton;
     [SerializeField] InputField nameField, commentField;
-    string url = "スプレッドシートのURL";
-    string gasUrl = "GASのURL";
+    string url = "spreadsheetURL";
+    string gasUrl = "GASURL";
     List<string> datas = new List<string>();
     void Start()
     {
